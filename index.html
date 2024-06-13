@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JJ Ginon">
+    <meta name="description"
+        content="This Product Landing Page is a sample web page designed to showcase products with a sleek, responsive layout. Inspired by freeCodeCamp's Product Landing Page Demo Project, this page incorporates modern web development techniques and adheres to the best practices as taught by Dave Gray. This web page was also created as part of my freeCodeCamp Responsive Web Design Certification.">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <nav id="nav-bar" class="header__nav">
+            <div class="logo-container">
+                <img src="img/coffeescript-logo-transparent_2000x1247.png" alt="coffeeScript Café logo" width="2000"
+                    height="1247" class="header__img" id="header-img">
+                <h1 class="header__h1"><span class="nowrap">coffeeScript Café</span></h1>
+            </div>
+            <ul class="header__ul">
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#coffee" class="nav-link">Coffee</a>
+                </li>
+                <li>
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="main__article subscription">
+            <h2>Cup of High-Quality Coffee</h2>
+            <p class="subscription__p">
+                Get our latest product updates. Subscribe to our newsletter:
+            </p>
+            <form action="https://www.freecodecamp.com/email-submit" method="get" class="subscription__form" id="form">
+                <label class="form__label offscreen" for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="user@mail.com" autocomplete="on">
+                <button type="submit" class="form__button">
+                    Subscribe
+                </button>
+            </form>
+        </article>
+        <article id="about" class="main__article features">
+            <div class="features__div">
+                <i class="ri-cup-line ri-4x icon"></i>
+                <div class="text-container">
+                    <h2>Quality Ingredients</h2>
+                    <p>
+                        We use high-quality coffee beans, as seen by their scent, flavor,
+                        and freshness: a nutty, earthy, or fruity aftertaste can be found
+                        in our cup of coffee.
+                    </p>
+                </div>
+            </div>
+
+            <div class="features__div">
+                <i class="ri-bread-line ri-4x icon"></i>
+                <div class="text-container">
+                    <h2>Not Just Coffee</h2>
+                    <p>
+                        We don't just sell coffee. We offer frappe, tea, and a variety of baked goods.
+                    </p>
+                </div>
+            </div>
+
+            <div class="features__div">
+                <i class="ri-drinks-line ri-4x icon"></i>
+                <div class="text-container">
+                    <h2>Drive-Thru and Delivery Available</h2>
+                    <p>
+                        In addition to dine-in and take-out options, our local branches offer
+                        drive-thru service. You can also choose your preferred delivery service.
+                    </p>
+                </div>
+            </div>
+        </article>
+
+        <article id="coffee" class="main__article video">
+            <h2>Coffee Video</h2>
+            <iframe class="video__iframe" id="video" src="https://www.youtube.com/embed/0jIeCAOkgcQ?si=2TtafC_BQmHJLYfK"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </article>
+
+        <article id="products" class="main__article products">
+            <h2>Our Products</h2>
+            <div class="products__div container">
+                <div class="container__div card">
+                    <div class="card__div product">
+                        <img class="product__img" src="/img/coffee_1024x1024.png" alt="coffeeScript Coffee" width="1024"
+                            height="1024">
+                    </div>
+                    <div class="card__div item">
+                        <h3 class="item__h3">Java Coffee</h3>
+                        <p class="item__p">
+                            Unlock your code wizardry with our Java Blend&#8212;a symphony of dark-roasted beans and a
+                            subtle hint of vanilla bytecode. Each sip fuels your algorithms, turning lines of code into
+                            poetry.
+                        </p>
+
+                        <p class="item__p price">₱75</p>
+
+                        <button class="item__button">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container__div card">
+                    <div class="card__div product">
+                        <img class="product__img" src="/img/tea_1024x1024.png" alt="coffeeScript Coffee" width="1024"
+                            height="1024">
+                    </div>
+                    <div class="card__div item">
+                        <h3 class="item__h3">Tea++</h3>
+                        <p class="item__p">
+                            Boost your code with our Tea++&#8212;a premium green tea blend that
+                            sharpens focus and banishes bugs. Sip on the secret weapon taht keeps your mind agile and
+                            your syntax error-free.
+                        </p>
+
+                        <p class="item__p price">₱80</p>
+
+                        <button class="item__button">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container__div card">
+                    <div class="card__div product">
+                        <img class="product__img" src="/img/frappe_1024x1024.png" alt="coffeeScript Coffee" width="1024"
+                            height="1024">
+                    </div>
+                    <div class="card__div item">
+                        <h3 class="item__h3">Byte-Blend Frappe</h3>
+                        <p class="item__p">
+                            Fuel your code with our Byte-Blend Frappe&#8212;a creamy concoction
+                            topped with a binary bit of chocolate code crunch. It is the perfect syntax for your system,
+                            guaranteed to debug your brain and refresh your routines!
+                        </p>
+
+                        <p class="item__p price">₱100</p>
+
+                        <button class="item__button">
+                            Add to Cart
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <p class="btt">
+            <a href="#">
+                &#11205; Back to Top &#11205;
+            </a>
+        </p>
+    </main>
+    <footer class="footer">
+        <p>
+            Copyright &copy; <time datetime="2024">2024</time> coffeeScript Café
+        </p>
+    </footer>
+</body>
+
+</html>
