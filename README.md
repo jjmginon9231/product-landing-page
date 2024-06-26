@@ -12,3 +12,8 @@ This Product Landing Page is a sample web page designed to showcase products wit
 ## Credits
 - Design inspired by [freeCodeCamp's Product Landing Page Demo Project](https://product-landing-page.freecodecamp.rocks/)
 - HTML and CSS best practices guided by Dave Gray's educational content on [Semantic HTML Tags](https://www.youtube.com/watch?v=kX3TfdUqpuU), [How to Organize CSS](https://www.youtube.com/watch?v=MNPdifWAAa4), and [CSS Custom Variables](https://www.youtube.com/watch?v=K_M7D0PfOFM).
+
+## Contact
+Feel free to reach out for collaborations or work opportunities.
+
+[LinkedIn](https://www.linkedin.com/in/john-jerry-ginon-0b5539314/) | [GitHub](https://github.com/jjmginon9231/) | [Upwork](https://www.upwork.com/freelancers/~01432eb5f90e315e15?mp_source=share)
